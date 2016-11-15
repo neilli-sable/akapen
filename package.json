@@ -1,0 +1,19 @@
+{
+  "name": "akapen",
+  "version": "0.0.1",
+  "description": "Realtime validation framework (plain Javascript).",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilli-sable/akapen.git"
+  },
+  "author": "neilli-sable",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neilli-sable/akapen/issues"
+  },
+  "homepage": "https://github.com/neilli-sable/akapen#readme"
+}

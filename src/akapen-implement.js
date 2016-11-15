@@ -3,6 +3,8 @@
  */
 (function() {
   'use strict';
+  var Akapen = require('./akapen');
+
   Akapen.validators.maxlength = function(n, node) {
     if (node.value.length > n) {
       return true;
@@ -39,5 +41,6 @@
     error.textContent = message;
     node.parentNode.insertBefore(error, node.nextSibling);
   };
+
   Akapen.init();
 })();

@@ -10,7 +10,7 @@ var Akapen = (function() {
   var messages = {};
   var reactions = {};
 
-  var parser = CustomDataParser;
+  var parser = require('./custom-data-parser');
 
   /**
    * Initialize.
@@ -65,3 +65,5 @@ var Akapen = (function() {
     init: init
   };
 })();
+
+module.exports = Akapen;

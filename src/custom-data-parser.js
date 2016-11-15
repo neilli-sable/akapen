@@ -51,3 +51,5 @@ var CustomDataParser = (function() {
     toFirstUpper: toFirstUpper
   };
 }());
+
+module.exports = CustomDataParser;
