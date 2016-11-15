@@ -1,5 +1,5 @@
 /**
- * Validate function implements..
+ * Validate function implements.
  */
 (function() {
   'use strict';
