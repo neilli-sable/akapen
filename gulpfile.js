@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var webpack = require('gulp-webpack');
 var webpackConfig = require('./webpack.config.js');
+var uglify = require('gulp-uglify');
 
 gulp.task('cleanBuild', function (cb) {
   var rimraf = require('rimraf');
@@ -15,5 +16,6 @@ gulp.task('copyIndex', ['cleanBuild'], function () {
 gulp.task('build', ['copyIndex'], function (cb) {
   return gulp.src('')
   .pipe(webpack(webpackConfig))
+  .pipe(uglify())
   .pipe(gulp.dest(''));
 });

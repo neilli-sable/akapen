@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/neilli-sable/akapen/issues"
   },
-  "homepage": "https://github.com/neilli-sable/akapen#readme"
+  "homepage": "https://github.com/neilli-sable/akapen#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^1.13.3"
+  }
 }
